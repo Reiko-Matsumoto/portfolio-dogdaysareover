@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html class="toppage">
+<head>
+<meta charset="utf-8">
+	
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@500&display=swap" rel="stylesheet">
+	
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@800&display=swap" rel="stylesheet">
+
+	
+<title>DOG DAYS ARE OVER｜HOME</title>
+<link href="css/reset.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link href="css/jquery.bxslider.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+$('.bxslider').bxSlider({
+auto:true,
+mode:'fade',
+speed:3000,
+pause:6000,
+	
+});
+});
+</script>
+<script>
+$(function() {
+var topBtn = $('#page-top');
+topBtn.hide();
+//スクロールが100に達したらボタン表示
+$(window).scroll(function () {
+if ($(this).scrollTop() > 100) {
+topBtn.fadeIn();
+} else {
+topBtn.fadeOut();
+}
+});
+//スクロールしてトップ
+topBtn.click(function () {
+$('body,html').animate({
+scrollTop: 0
+}, 500);
+return false;
+});
+});
+</script>
+<script type="text/javascript" src="js/jquery.bxslider.js"></script>
+</head>
+<body class="photographs">
+	
+<a id="jump"></a>
+	
+<header class="photographs">
+<a href="index.html"><img src="images/Visual/logo.png" alt="dogdays" class="logo"></a>
+<nav>
+<ul>
+<li><a href="aboutme.html">ABOUT ME</a></li>
+<li><a href="artworks.html">ARTWORKS</a></li>
+<li><a href="photographs.html">PHOTOGRAPHS</a></li>
+<li><a href="contact.html">CONTACT</a></li>
+</ul>
+</nav>
+	
+</header>   
+	
+<div id="photographs">
+<h1 class="photographs">PHOTOGRAPHS</h1>
+<img src="images/Visual/photographs.png" alt="カメラを持つ女の子の絵" class="photographs">
+</div>
+	
+
+<main class="photographs">
+<h2 class="artworks">Where would like to exprore？<br></h2>
+
+<section class="photographs">
+<ul class="photographs">
+
+<li class="photographs"><a href="australia.html"><img src="images/flag-icon/australia.png" alt="オーストラリアの国旗" class="photographs"></a></li>	
+<li class="photographs"><a href="england.html"><img src="images/flag-icon/england.png" alt="イギリスの国旗" class="photographs"></a></li>
+<li class="photographs"><a href="wales.html"><img src="images/flag-icon/wales.png" alt="ウェールズの国旗" class="photographs"></a></li>
+<li class="photographs"><a href="france.html"><img src="images/flag-icon/france.png" alt="フランスの国旗" class="photographs"></a></li>
+<li class="photographs"><a href="spain.html"><img src="images/flag-icon/spain.png" alt="スペインの国旗" class="photographs"></a></li>
+<li class="photographs"><a href="portugal.html"><img src="images/flag-icon/portgal.png" alt="ポルトガルの国旗" class="photographs"></a></li>
+<li class="photographs"><a href="Cambodia.html"><img src="images/flag-icon/cambodia.png" alt="カンボジアの国旗" class="photographs"></a></li>
+<li class="photographs"><a href="russia.html"><img src="images/flag-icon/russia.png" alt="ロシアの国旗" class="photographs"></a></li>
+<br>
+<li class="photographs"><a href="malaysia.html"><img src="images/flag-icon/malaysia.png" alt="マレーシアの国旗" class="photographs"></a></li>
+<li class="photographs"><a href="Vietnam.html"><img src="images/flag-icon/vietnam.png" alt="ベトナムの国旗" class="photographs"></a></li>
+<li class="photographs"><a href="moldaive.html"><img src="images/flag-icon/moldaive.png" alt="モルディブの国旗" class="photographs"></a></li>
+<li class="photographs"><a href="thailand.html"><img src="images/flag-icon/thailand.png" alt="タイの国旗" class="photographs"></a></li>
+<li class="photographs"><a href="hongkong.html"><img src="images/flag-icon/hongkong.png" alt="香港の国旗" class="photographs"></a></li>
+<li class="photographs"><a href="macau.html"><img src="images/flag-icon/macau.png" alt="マカオの国旗" class="photographs"></a></li>
+<li class="photographs"><a href="taiwan.html"><img src="images/flag-icon/taiwan.png" alt="台湾の国旗" class="photographs"></a></li>
+<li class="photographs"><a href="japan.html"><img src="images/flag-icon/japan.png" alt="日本の国旗" class="photographs"></a></li>
+</ul>
+</section>
+</main>
+	
+
+
+
+<footer class="photographs">
+<p class="footer">Copyright &copy; 2021 Reiko Matsumoto All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>

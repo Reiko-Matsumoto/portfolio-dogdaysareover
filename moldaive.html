@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html class="toppage">
+<head>
+<meta charset="utf-8">
+	
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@500&display=swap" rel="stylesheet">
+	
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@800&display=swap" rel="stylesheet">
+
+	
+<title>DOG DAYS ARE OVER｜HOME</title>
+<link href="css/reset.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link href="css/jquery.bxslider.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+$('.bxslider').bxSlider({
+auto:true,
+mode:'fade',
+speed:3000,
+pause:6000,
+	
+});
+});
+</script>
+<script>
+$(function() {
+var topBtn = $('#page-top');
+topBtn.hide();
+//スクロールが100に達したらボタン表示
+$(window).scroll(function () {
+if ($(this).scrollTop() > 100) {
+topBtn.fadeIn();
+} else {
+topBtn.fadeOut();
+}
+});
+//スクロールしてトップ
+topBtn.click(function () {
+$('body,html').animate({
+scrollTop: 0
+}, 500);
+return false;
+});
+});
+</script>
+<script type="text/javascript" src="js/jquery.bxslider.js"></script>
+</head>
+<body class="country">
+	
+<a id="jump"></a>
+	
+<header class="photographs">
+<a href="index.html"><img src="images/Visual/logo.png" alt="dogdays" class="logo"></a>
+<nav>
+<ul>
+<li><a href="aboutme.html">ABOUT ME</a></li>
+<li><a href="artworks.html">ARTWORKS</a></li>
+<li><a href="photographs.html">PHOTOGRAPHS</a></li>
+<li><a href="contact.html">CONTACT</a></li>
+</ul>
+</nav>
+	
+</header>   
+	
+<div id="country">
+<h1 class="country">PHOTOGRAPHS</h1>
+</div>
+	
+
+<main class="country">
+<section class="country">
+Currently Being prepared...<br><br>
+ページ準備中。。。
+</section>
+<div class="sidebar">
+
+<ul class="sidebar">
+<li><img src="images/flag-icon/taiwan.png" alt="台湾の国旗"></li>
+<li><img class="country-name" src="images/flag-icon/taiwan-name.png" alt="taiwanの文字"></li>
+<li><a href="australia.html">Australia</a></li>
+<li><a href="england.html">England</a></li>
+<li><a href="wales.html">Wales</a></li>
+<li><a href="france.html">France</a></li>
+<li><a href="spain.html">Spain</a></li>
+<li><a href="portugal.html">Portugal</a></li>
+<li><a href="russia.html">Russia</a></li>
+<li><a href="cambodia.html">Cambodia</a></li>
+<li><a href="thailand.html">Thailand</a></li>
+<li><a href="malaysia.html">Malaysia</a></li>
+<li><a href="vietnam.html">Vietnam</a></li>
+<li><a href="taiwan.html">Taiwan</a></li>
+<li><a href="macau.html">Macau</a></li>
+<li><a href="hongkong.html">HongKong</a></li>
+<li><a href="japan.html">Japan</a></li>
+
+</ul></div>
+
+</main>
+
+
+
+<footer class="photographs">
+<p class="footer">Copyright &copy; 2021 Reiko Matsumoto All Rights Reserved.</p>
+</footer>
+</body>
+</html>
