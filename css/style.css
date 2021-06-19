@@ -579,14 +579,14 @@ h3.graphicdesign{
 /*countryのcss*/
 
 main.country{
-	width:95%;
+	width:1343px;
 	height:5000px;
 	margin: 0 auto;
 	display: flex;
 }
 
 section.country{
-	width:70%;
+	width:1096px;
 	text-align: center;
 	border-spacing: inherit;
 	font-family: 'Alegreya', serif;
