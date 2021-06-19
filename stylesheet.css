@@ -1,0 +1,1560 @@
+@charset "utf-8";
+
+
+#jump-top {
+position: fixed;
+bottom: 20px;
+right: 20px;
+font-size:20px;
+font-weight:bold;
+}
+
+#jump-top-country {
+position: fixed;
+bottom: 20px;
+right: 20px;
+font-size:25px;
+font-weight:bold;
+}
+
+
+body{
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	font-family: 'Alegreya', serif;
+	
+	}
+
+body.home{
+		background-image:url(../images/visual/background1.jpg);
+}
+body.aboutme{
+		background-image:url(../images/visual/background2.jpg);
+}
+body.artworks{
+		background-image:url(../images/visual/background3.jpg);
+}
+body.photographs{
+		background-image:url(../images/visual/background4.jpg);
+}
+body.contact{
+		background-image:url(../images/visual/background5.jpg);
+}
+body.graphicdesign{
+		background-color:#FFFFFF;
+}
+
+body.country{
+		background-color:#FFFFFF;
+}
+
+
+
+a{
+color:#989797;
+	
+	
+}
+
+
+header{
+	width:100%;
+	height:90px;
+	text-align:left;
+	display: flex;
+	justify-content: space-between;
+}
+
+header.home{
+	background-color:#D0ACE8;}
+header.aboutme{
+	background-color:#f0ef8d;}
+header.artworks{
+	background-color:#7eade6;}
+header.photographs{
+	background-color:#d69f9f;}
+header.contact{
+	background-color:#9fd6b1;}
+
+.logo{
+	margin:15px 30px 15px 30px;
+}
+
+nav{
+	width:630px;
+	text-align: right;
+	font-weight: bold;
+	margin: 40px 30px 0 0;
+	font-family: 'Alegreya', serif;
+}
+
+nav ul{
+	display: flex;
+	justify-content: space-between;
+}
+
+nav a{
+    font-size:16px;
+    color:#FFFFFF;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.5s;
+	font-family: 'Alegreya', serif;
+}
+
+nav a:hover{
+    opacity: 0.3;
+}
+
+div#mv{
+width:100%;
+height: 734px;
+}
+
+
+.copy1{
+margin:175px 0 0 30px;
+}
+
+.subcopy1{
+margin:70px 0 0 30px;
+}
+
+
+main{
+width:100%;
+margin: 50px auto ;
+}
+
+
+
+section.about{
+	width:100%;
+	background-color:rgba(255,255,255,0.60);
+	box-shadow: 0 0 100px #D0ACE8;
+	text-align: center;
+	font-family: 'Alegreya', serif;
+	padding: 0 0 40px 0;
+	
+}
+
+section.art{
+	width:100%;
+	height: 550px;
+	text-align: center;
+	border-spacing: inherit;
+	box-shadow: 0 0 100px #D0ACE8;
+    background-color:rgba(255,255,255,0.60);
+	font-family: 'Alegreya', serif;
+}
+
+section.art ul.artworks{
+    width:1096px;
+    margin:0 auto 20px auto;
+    list-style-type: none;
+	display: flex;
+	flex-wrap:wrap;
+	justify-content: space-between;
+	
+}
+
+section.art img
+{border: 10px solid #D0ACE8;
+	
+}
+
+
+
+section.photo{
+	width:100%;
+	height: 550px;
+	text-align: center;
+	border-spacing: inherit;
+	box-shadow: 0 0 100px #D0ACE8;
+	background-color:rgba(255,255,255,0.60);
+	font-family: 'Alegreya', serif;
+	
+}
+
+
+section.photo ul.photographs{
+    width:1096px;
+    margin:0 auto 20px auto;
+    list-style-type: none;
+	display: flex;
+	flex-wrap:wrap;
+	justify-content: space-between;
+}
+
+
+
+section.photo img
+{border: 10px solid #D0ACE8;
+}
+
+
+h1.home{
+    text-align: center;
+	font-size: 90px;
+	font-weight: bold;
+	color:#ffffff;
+	margin: 40px 0;
+	padding: 40px 0 20px 0;
+	font-family: 'Alegreya', serif;
+}
+
+
+h2.home{
+    text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+	color:#a57ad0;
+	margin: 40px 0;
+	padding: 40px 0 20px 0;
+	font-family: 'Alegreya', serif;
+}
+
+h3{
+	font-size: 20px;
+	font-weight: bold;
+	margin: 20px 0 10px 0;
+	color:#a57ad0;
+	font-family: 'Alegreya', serif;
+}
+
+p.subcopy2{
+	line-height: 200%;
+	color:#a57ad0;
+	font-weight: bold;
+	font-family: 'Alegreya', serif;
+}
+
+
+
+li.viewall {
+	color:#a57ad0;
+	text-align: center;
+    font-family: 'Alegreya', serif;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+li.viewall:hover{
+    opacity: 0.3;}
+
+
+/*About meのページ*/
+
+div#aboutme{
+text-align: center;
+width:100%;
+height: 600px;
+}
+
+main.aboutme{
+	width:100%;
+	margin: 0 auto 60px auto;
+	background-color:rgba(255,255,255,0.60);
+	box-shadow: 0 0 100px #f0ef8d;
+	padding:30px 0 30px 0;
+	text-align: center;
+	font-family: 'Alegreya', serif;
+	display: flex;
+	justify-content: space-between;
+	}
+
+section.right{Width:50%;}
+section.left{Width:50%;}
+
+
+h1.aboutme{
+    text-align: center;
+	font-size: 90px;
+	font-weight: bold;
+	color:#ffffff;
+	margin: 30px auto;
+	padding: auto 30px auto 30px;
+	font-family: 'Alegreya', serif;
+}
+
+
+h2.aboutme{
+	text-align: left;
+	font-size: 40px;
+	font-weight: bold;
+	color:#767575;
+	margin: auto 30px;
+	padding: auto 30px auto 30px;
+	font-family: 'Alegreya', serif;
+}
+
+p.aboutme{
+	line-height: 200%;
+	color:#767575;
+	font-size: 18px;
+	margin: auto 30px;
+	padding: auto 30px auto 30px;
+	font-weight: bold;
+	font-family: 'Alegreya', serif;
+    text-align:left;
+	
+}
+
+
+/*artworksのページ*/
+
+div#artworks{
+text-align: center;
+width:100%;
+height: 600px;
+}
+
+main.artworks{
+    width:100%;
+	margin: 0 auto 60px auto;
+	background-color:rgba(255,255,255,0.60);
+	box-shadow: 0 0 100px #7eade6;
+	padding:30px 0 30px 0;
+	text-align: center;
+	font-family: 'Alegreya', serif;
+	
+}
+
+
+img.artworks{
+	margin: 70px 0 0 0;
+}
+
+h1.artworks{
+    text-align: center;
+	font-size: 90px;
+	font-weight: bold;
+	color:#ffffff;
+	margin: 30px auto;
+	padding: auto 30px auto 30px;
+	font-family: 'Alegreya', serif;
+}
+
+h1.artworks1 a{
+	text-decoration: none;
+    text-align: center;
+	font-size: 90px;
+	font-weight: bold;
+	color:#767575;
+	margin: 50px auto 50px auto;
+	padding: auto 50px auto 50px;
+	font-family: 'Alegreya', serif;
+	transition: 0.5s;
+}
+	
+h1.artworks1 a:hover{
+    opacity: 0.3;}
+
+h2.artworks{
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+	color:#767575;
+	padding:25px 50px 25px 50px;
+	margin:0 50px 0 50px;
+	font-family: 'Alegreya', serif;
+}
+
+h3.artworks{
+    text-align:center;
+	font-weight: bold;
+	color:#767575;
+	font-family: 'Alegreya', serif;
+}
+
+
+/*photograpghsのページ*/
+
+div#photographs{
+text-align: center;
+width:100%;
+height: 600px;
+}
+
+main.photographs{
+    width:100%;
+	margin: 0 auto 60px auto;
+	background-color:rgba(255,255,255,0.60);
+	box-shadow: 0 0 100px #d69f9f;
+	padding:30px 0 30px 0;
+	text-align: center;
+	font-family: 'Alegreya', serif;
+}
+
+
+
+section.photographs ul{
+    width:1096px;
+    margin:20px auto 20px auto;
+    list-style-type: none;
+	display: flex;
+	flex-wrap:wrap;
+	justify-content: space-between;
+}
+
+
+li.photographs{
+	margin: 28px 28px 28px 28px;
+	transition: 0.5s;
+	list-style-type: none;
+	display: flex;
+	flex-wrap:wrap;
+	justify-content: space-between;
+}
+
+
+li.photographs:hover{
+    opacity: 0.3;}
+
+
+h1.photographs{
+    text-align: center;
+	font-size: 90px;
+	font-weight: bold;
+	color:#ffffff;
+	margin: 30px auto;
+	padding: auto 30px auto 30px;
+	font-family: 'Alegreya', serif;
+}
+
+
+
+h2.photographs{
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+	color:#767575;
+	padding:0 30px 0 30px;
+	font-family: 'Alegreya', serif;
+}
+
+
+/*contactのページ*/
+
+div#contact{
+text-align: center;
+width:100%;
+height: 600px;
+display:flex;
+justify-content: space-between;
+}
+
+main.contact{
+    width:100%;
+	margin: 0 auto 60px auto;
+	background-color:rgba(255,255,255,0.60);
+	box-shadow: 0 0 100px #9fd6b1;
+	padding:30px 0 30px 0;
+	text-align: center;
+	font-family: 'Alegreya', serif;
+	
+}
+
+img.contact1{
+	margin:20px 200px 0 200px;
+}
+
+img.contact{
+	margin: auto auto;
+}
+
+section.right1{Width:50%;}
+section.left1{Width:50%;
+}
+
+
+section.contact ul{
+    width:1096px;
+    margin:20px auto 20px auto;
+    list-style-type: none;
+	display: flex;
+	flex-wrap:wrap;
+	justify-content: space-between;
+}
+
+
+li.contact{
+	margin: 28px 28px 28px 28px;
+	list-style-type: none;
+	display: flex;
+	flex-wrap:wrap;
+	justify-content: space-between;
+}
+
+h1.contact{
+    text-align: center;
+	font-size: 90px;
+	font-weight: bold;
+	color:#ffffff;
+	margin: 230px 100px 0 0;
+	padding: auto 30px auto 30px;
+	font-family: 'Alegreya', serif;
+}
+
+
+h2.contact{
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+	color:#767575;
+	margin: 30px auto;
+	font-family: 'Alegreya', serif;
+}
+
+
+p.contact{
+	text-align: center;
+	font-weight: bold;
+	color:#767575;
+	padding:0 30px 0 30px;
+	font-family: 'Alegreya', serif;
+}
+
+
+/*graphis designのcss*/
+
+section.graphicdesign{
+	width:100%;
+	height: 455px;
+	text-align: center;
+	border-spacing: inherit;
+	font-family: 'Alegreya', serif;
+	
+}
+
+.yohaku img{
+	padding: 0 184px;
+}
+
+
+section.graphicdesign ul
+{
+width:1096px;
+margin:5px auto 5px auto;
+list-style-type: none;
+	display: flex;
+	flex-wrap:wrap;
+	justify-content: space-between;
+}
+
+section.graphicdesign img
+{border: 15px solid #7eade6;
+}
+
+
+h1.graphicdesign{
+    text-align: center;
+	font-size: 90px;
+	font-weight: bold;
+	color:#7eade6;
+	margin: 30px auto 30px auto;
+	padding: auto 30px auto 30px;
+	font-family: 'Alegreya', serif;
+}
+
+h3.graphicdesign{
+    text-align:center;
+	font-weight: bold;
+	color:#7eade6;
+	font-family: 'Alegreya', serif;
+}
+
+
+/*countryのcss*/
+
+main.country{
+	width:1343px;
+	height:5000px;
+	margin: 0 auto;
+	display: flex;
+}
+
+section.country{
+	width:1096px;
+	text-align: center;
+	border-spacing: inherit;
+	font-family: 'Alegreya', serif;
+	position: relative;
+	
+}
+
+
+section.country ul
+{
+	background-color: #5380ED;
+    margin:0 auto 20px auto;
+    list-style-type: none;
+	display: flex;
+	flex-wrap:wrap;
+	justify-content: space-between;
+}
+
+
+/*オーストラリア写真のcss*/
+img.australia1{
+	position: absolute;
+	top:34px;
+	left:40px;}
+img.australia2{
+	position: absolute;
+	top:0;
+	left:606px;}
+img.australia3{
+	position: absolute;
+	top:314px;
+	left:20px;}
+img.australia4{
+	position: absolute;
+	top:403px;
+	left:480px;}
+img.australia5{
+	position: absolute;
+	top:728px;
+	left:565px;}
+img.australia6{
+	position: absolute;
+	top:966px;
+	left:30px;}
+img.australia7{
+	position: absolute;
+	top:1095px;
+	left:600px;}
+img.australia8{
+	position: absolute;
+	top:1441px;
+	left:205px;}
+img.australia9{
+	position: absolute;
+	top:1980px;
+	left:20px;}
+img.australia10{
+	position: absolute;
+	top:2028px;
+	left:414px;}
+img.australia11{
+	position: absolute;
+	top:2521px;
+	left:50px;}
+img.australia12{
+	position: absolute;
+	top:2536px;
+	left:698px;}
+img.australia13{
+	position: absolute;
+	top:2951px;
+	left:20px;}
+img.australia14{
+	position: absolute;
+	top:2853px;
+	left:434px;}
+img.australia15{
+	position: absolute;
+	top:3323px;
+	left:10px;}
+img.australia16{
+	position: absolute;
+	top:3323px;
+	left:543px;}
+img.australia17{
+	position: absolute;
+	top:3701px;
+	left:75px;}
+img.australia18{
+	position: absolute;
+	top:4300px;
+	left:638px;}
+img.australia19{
+	position: absolute;
+	top:4500px;
+	left:30px;}
+
+
+
+/*イギリス写真のcss*/
+img.england1{
+	position: absolute;
+	top:34px;
+	left:80px;}
+img.england2{
+	position: absolute;
+	top:0;
+	left:606px;}
+img.england3{
+	position: absolute;
+	top:314px;
+	left:200px;}
+img.england4{
+	position: absolute;
+	top:403px;
+	left:700px;}
+img.england5{
+	position: absolute;
+	top:728px;
+	left:565px;}
+img.england6{
+	position: absolute;
+	top:966px;
+	left:1px;}
+img.england7{
+	position: absolute;
+	top:1095px;
+	left:600px;}
+img.england8{
+	position: absolute;
+	top:1441px;
+	left:205px;}
+img.england9{
+	position: absolute;
+	top:1980px;
+	left:0;}
+img.england10{
+	position: absolute;
+	top:2028px;
+	left:414px;}
+img.england11{
+	position: absolute;
+	top:2521px;
+	left:0;}
+img.england12{
+	position: absolute;
+	top:2536px;
+	left:698px;}
+img.england13{
+	position: absolute;
+	top:2951px;
+	left:0px;}
+img.england14{
+	position: absolute;
+	top:2853px;
+	left:434px;}
+img.england15{
+	position: absolute;
+	top:3323px;
+	left:10px;}
+img.england16{
+	position: absolute;
+	top:3323px;
+	left:543px;}
+img.england17{
+	position: absolute;
+	top:3701px;
+	left:75px;}
+img.england18{
+	position: absolute;
+	top:3933px;
+	left:638px;}
+img.england19{
+	position: absolute;
+	top:4112px;
+	left:0px;}
+img.england20{
+	position: absolute;
+	top:4294px;
+	left:511px;}
+
+
+/*スペイン写真のcss*/
+img.spain1{
+	position: absolute;
+	top:34px;
+	left:150px;}
+img.spain2{
+	position: absolute;
+	top:0;
+	left:606px;}
+img.spain3{
+	position: absolute;
+	top:314px;
+	left:1px;}
+img.spain4{
+	position: absolute;
+	top:403px;
+	left:700px;}
+img.spain5{
+	position: absolute;
+	top:728px;
+	left:565px;}
+img.spain6{
+	position: absolute;
+	top:966px;
+	left:1px;}
+img.spain7{
+	position: absolute;
+	top:1095px;
+	left:600px;}
+img.spain8{
+	position: absolute;
+	top:1441px;
+	left:205px;}
+img.spain9{
+	position: absolute;
+	top:1980px;
+	left:0;}
+img.spain10{
+	position: absolute;
+	top:2028px;
+	left:414px;}
+img.spain11{
+	position: absolute;
+	top:2521px;
+	left:0;}
+img.spain12{
+	position: absolute;
+	top:2536px;
+	left:698px;}
+img.spain13{
+	position: absolute;
+	top:2951px;
+	left:0px;}
+img.spain14{
+	position: absolute;
+	top:2853px;
+	left:434px;}
+img.spain15{
+	position: absolute;
+	top:3323px;
+	left:10px;}
+img.spain16{
+	position: absolute;
+	top:3323px;
+	left:543px;}
+img.spain17{
+	position: absolute;
+	top:3701px;
+	left:75px;}
+img.spain18{
+	position: absolute;
+	top:3933px;
+	left:638px;}
+img.spain19{
+	position: absolute;
+	top:4112px;
+	left:0px;}
+img.spain20{
+	position: absolute;
+	top:5000px;
+	left:511px;}
+
+/*ウェールズ写真のcss*/
+img.wales1{
+	position: absolute;
+	top:34px;
+	left:40px;}
+img.wales2{
+	position: absolute;
+	top:0;
+	left:606px;}
+img.wales3{
+	position: absolute;
+	top:314px;
+	left:20px;}
+img.wales4{
+	position: absolute;
+	top:403px;
+	left:480px;}
+img.wales5{
+	position: absolute;
+	top:728px;
+	left:565px;}
+img.wales6{
+	position: absolute;
+	top:966px;
+	left:30px;}
+img.wales7{
+	position: absolute;
+	top:1095px;
+	left:600px;}
+img.wales8{
+	position: absolute;
+	top:1441px;
+	left:205px;}
+img.wales9{
+	position: absolute;
+	top:1980px;
+	left:20px;}
+img.wales10{
+	position: absolute;
+	top:2028px;
+	left:550px;}
+img.wales11{
+	position: absolute;
+	top:2521px;
+	left:50px;}
+img.wales12{
+	position: absolute;
+	top:2536px;
+	left:698px;}
+img.wales13{
+	position: absolute;
+	top:2951px;
+	left:300px;}
+
+
+/*フランス写真のcss*/
+img.france1{
+	position: absolute;
+	top:34px;
+	left:80px;}
+img.france2{
+	position: absolute;
+	top:0;
+	left:606px;}
+img.france3{
+	position: absolute;
+	top:314px;
+	left:200px;}
+img.france4{
+	position: absolute;
+	top:403px;
+	left:700px;}
+img.france5{
+	position: absolute;
+	top:728px;
+	left:565px;}
+img.france6{
+	position: absolute;
+	top:966px;
+	left:10px;}
+img.france7{
+	position: absolute;
+	top:1095px;
+	left:600px;}
+img.france8{
+	position: absolute;
+	top:1441px;
+	left:205px;}
+img.france9{
+	position: absolute;
+	top:1980px;
+	left:20px;}
+img.france10{
+	position: absolute;
+	top:2028px;
+	left:414px;}
+img.france11{
+	position: absolute;
+	top:2521px;
+	left:30px;}
+img.france12{
+	position: absolute;
+	top:2536px;
+	left:698px;}
+img.france13{
+	position: absolute;
+	top:2951px;
+	left:0px;}
+img.france14{
+	position: absolute;
+	top:2853px;
+	left:434px;}
+img.france15{
+	position: absolute;
+	top:3323px;
+	left:50px;}
+img.france16{
+	position: absolute;
+	top:3323px;
+	left:543px;}
+img.france17{
+	position: absolute;
+	top:3701px;
+	left:75px;}
+img.france18{
+	position: absolute;
+	top:3933px;
+	left:638px;}
+img.france19{
+	position: absolute;
+	top:4112px;
+	left:0px;}
+img.france20{
+	position: absolute;
+	top:4294px;
+	left:511px;}
+
+
+/*スペイン写真のcss*/
+img.spain1{
+	position: absolute;
+	top:34px;
+	left:150px;}
+img.spain2{
+	position: absolute;
+	top:0;
+	left:606px;}
+img.spain3{
+	position: absolute;
+	top:314px;
+	left:10px;}
+img.spain4{
+	position: absolute;
+	top:403px;
+	left:700px;}
+img.spain5{
+	position: absolute;
+	top:728px;
+	left:565px;}
+img.spain6{
+	position: absolute;
+	top:966px;
+	left:10px;}
+img.spain7{
+	position: absolute;
+	top:1095px;
+	left:600px;}
+img.spain8{
+	position: absolute;
+	top:1441px;
+	left:205px;}
+img.spain9{
+	position: absolute;
+	top:1980px;
+	left:20px;}
+img.spain10{
+	position: absolute;
+	top:2028px;
+	left:414px;}
+img.spain11{
+	position: absolute;
+	top:2521px;
+	left:50px;}
+img.spain12{
+	position: absolute;
+	top:2536px;
+	left:698px;}
+img.spain13{
+	position: absolute;
+	top:2951px;
+	left:0px;}
+img.spain14{
+	position: absolute;
+	top:2853px;
+	left:434px;}
+img.spain15{
+	position: absolute;
+	top:3323px;
+	left:20px;}
+img.spain16{
+	position: absolute;
+	top:3323px;
+	left:543px;}
+img.spain17{
+	position: absolute;
+	top:3701px;
+	left:75px;}
+img.spain18{
+	position: absolute;
+	top:3933px;
+	left:638px;}
+img.spain19{
+	position: absolute;
+	top:4112px;
+	left:50px;}
+img.spain20{
+	position: absolute;
+	top:4294px;
+	left:511px;}
+
+
+/*ポルトガル写真のcss*/
+img.portugal1{
+	position: absolute;
+	top:34px;
+	left:80px;}
+img.portugal2{
+	position: absolute;
+	top:0;
+	left:606px;}
+img.portugal3{
+	position: absolute;
+	top:314px;
+	left:200px;}
+img.portugal4{
+	position: absolute;
+	top:403px;
+	left:700px;}
+img.portugal5{
+	position: absolute;
+	top:728px;
+	left:565px;}
+img.portugal6{
+	position: absolute;
+	top:966px;
+	left:50px;}
+img.portugal7{
+	position: absolute;
+	top:1095px;
+	left:600px;}
+img.portugal8{
+	position: absolute;
+	top:1441px;
+	left:205px;}
+img.portugal9{
+	position: absolute;
+	top:1980px;
+	left:0;}
+img.portugal10{
+	position: absolute;
+	top:2028px;
+	left:414px;}
+img.portugal11{
+	position: absolute;
+	top:2521px;
+	left:30px;}
+img.portugal12{
+	position: absolute;
+	top:2536px;
+	left:698px;}
+img.portugal13{
+	position: absolute;
+	top:2951px;
+	left:0px;}
+img.portugal14{
+	position: absolute;
+	top:2853px;
+	left:434px;}
+img.portugal15{
+	position: absolute;
+	top:3323px;
+	left:30px;}
+img.portugal16{
+	position: absolute;
+	top:3323px;
+	left:543px;}
+img.portugal17{
+	position: absolute;
+	top:3701px;
+	left:75px;}
+img.portugal18{
+	position: absolute;
+	top:3933px;
+	left:638px;}
+img.portugal19{
+	position: absolute;
+	top:4112px;
+	left:20px;}
+img.portugal20{
+	position: absolute;
+	top:4294px;
+	left:511px;}
+
+
+/*ロシアのcss*/
+img.russia1{
+	position: absolute;
+	top:34px;
+	left:80px;}
+img.russia2{
+	position: absolute;
+	top:0;
+	left:606px;}
+img.russia3{
+	position: absolute;
+	top:314px;
+	left:200px;}
+img.russia4{
+	position: absolute;
+	top:403px;
+	left:700px;}
+img.russia5{
+	position: absolute;
+	top:728px;
+	left:565px;}
+img.russia6{
+	position: absolute;
+	top:966px;
+	left:50px;}
+img.russia7{
+	position: absolute;
+	top:1095px;
+	left:600px;}
+img.russia8{
+	position: absolute;
+	top:1441px;
+	left:205px;}
+img.russia9{
+	position: absolute;
+	top:1980px;
+	left:30px;}
+img.russia10{
+	position: absolute;
+	top:2028px;
+	left:414px;}
+img.russia11{
+	position: absolute;
+	top:2521px;
+	left:50px;}
+img.russia12{
+	position: absolute;
+	top:2536px;
+	left:698px;}
+img.russia13{
+	position: absolute;
+	top:2951px;
+	left:30px;}
+img.russia14{
+	position: absolute;
+	top:2853px;
+	left:434px;}
+img.russia15{
+	position: absolute;
+	top:3323px;
+	left:30px;}
+img.russia16{
+	position: absolute;
+	top:3323px;
+	left:543px;}
+img.russia17{
+	position: absolute;
+	top:3701px;
+	left:75px;}
+img.russia18{
+	position: absolute;
+	top:3933px;
+	left:638px;}
+img.russia19{
+	position: absolute;
+	top:4112px;
+	left:50px;}
+img.russia20{
+	position: absolute;
+	top:4294px;
+	left:511px;}
+
+
+/*カンボジアのcss*/
+img.cambodia1{
+	position: absolute;
+	top:34px;
+	left:80px;}
+img.cambodia2{
+	position: absolute;
+	top:0;
+	left:606px;}
+img.cambodia3{
+	position: absolute;
+	top:314px;
+	left:200px;}
+img.cambodia4{
+	position: absolute;
+	top:403px;
+	left:700px;}
+img.cambodia5{
+	position: absolute;
+	top:728px;
+	left:565px;}
+img.cambodia6{
+	position: absolute;
+	top:966px;
+	left:50px;}
+img.cambodia7{
+	position: absolute;
+	top:1095px;
+	left:600px;}
+img.cambodia8{
+	position: absolute;
+	top:1441px;
+	left:205px;}
+img.cambodia9{
+	position: absolute;
+	top:1980px;
+	left:20px;}
+img.cambodia10{
+	position: absolute;
+	top:2028px;
+	left:414px;}
+img.cambodia11{
+	position: absolute;
+	top:2521px;
+	left:30px;}
+img.cambodia12{
+	position: absolute;
+	top:2536px;
+	left:698px;}
+img.cambodia13{
+	position: absolute;
+	top:2951px;
+	left:50px;}
+img.cambodia14{
+	position: absolute;
+	top:2853px;
+	left:434px;}
+img.cambodia15{
+	position: absolute;
+	top:3323px;
+	left:30px;}
+img.cambodia16{
+	position: absolute;
+	top:3323px;
+	left:543px;}
+img.cambodia17{
+	position: absolute;
+	top:3701px;
+	left:75px;}
+img.cambodia18{
+	position: absolute;
+	top:3933px;
+	left:638px;}
+img.cambodia19{
+	position: absolute;
+	top:4112px;
+	left:20px;}
+img.cambodia20{
+	position: absolute;
+	top:4294px;
+	left:511px;}
+
+
+/*タイのcss*/
+img.thailand1{
+	position: absolute;
+	top:34px;
+	left:80px;}
+img.thailand2{
+	position: absolute;
+	top:0;
+	left:606px;}
+img.thailand3{
+	position: absolute;
+	top:314px;
+	left:200px;}
+img.thailand4{
+	position: absolute;
+	top:403px;
+	left:700px;}
+img.thailand5{
+	position: absolute;
+	top:728px;
+	left:565px;}
+img.thailand6{
+	position: absolute;
+	top:966px;
+	left:20px;}
+img.thailand7{
+	position: absolute;
+	top:1095px;
+	left:600px;}
+img.thailand8{
+	position: absolute;
+	top:1441px;
+	left:205px;}
+img.thailand9{
+	position: absolute;
+	top:1980px;
+	left:10px;}
+img.thailand10{
+	position: absolute;
+	top:2028px;
+	left:414px;}
+img.thailand11{
+	position: absolute;
+	top:2521px;
+	left:50px;}
+img.thailand12{
+	position: absolute;
+	top:2536px;
+	left:698px;}
+img.thailand13{
+	position: absolute;
+	top:2951px;
+	left:10px;}
+img.thailand14{
+	position: absolute;
+	top:2853px;
+	left:434px;}
+img.thailand15{
+	position: absolute;
+	top:3323px;
+	left:10px;}
+img.thailand16{
+	position: absolute;
+	top:3323px;
+	left:543px;}
+img.thailand17{
+	position: absolute;
+	top:3701px;
+	left:75px;}
+img.thailand18{
+	position: absolute;
+	top:3933px;
+	left:638px;}
+img.thailand19{
+	position: absolute;
+	top:4112px;
+	left:20px;}
+img.thailand20{
+	position: absolute;
+	top:4294px;
+	left:511px;}
+
+
+
+/*ベトナムのcss*/
+img.vietnam1{
+	position: absolute;
+	top:34px;
+	left:80px;}
+img.vietnam2{
+	position: absolute;
+	top:0;
+	left:606px;}
+img.vietnam3{
+	position: absolute;
+	top:314px;
+	left:200px;}
+img.vietnam4{
+	position: absolute;
+	top:403px;
+	left:700px;}
+img.vietnam5{
+	position: absolute;
+	top:728px;
+	left:565px;}
+img.vietnam6{
+	position: absolute;
+	top:966px;
+	left:10px;}
+img.vietnam7{
+	position: absolute;
+	top:1095px;
+	left:600px;}
+img.vietnam8{
+	position: absolute;
+	top:1441px;
+	left:205px;}
+img.vietnam9{
+	position: absolute;
+	top:1980px;
+	left:50px;}
+img.vietnam10{
+	position: absolute;
+	top:2028px;
+	left:414px;}
+img.vietnam11{
+	position: absolute;
+	top:2521px;
+	left:20px;}
+img.vietnam12{
+	position: absolute;
+	top:2536px;
+	left:698px;}
+img.vietnam13{
+	position: absolute;
+	top:2951px;
+	left:10px;}
+img.vietnam14{
+	position: absolute;
+	top:2853px;
+	left:434px;}
+img.vietnam15{
+	position: absolute;
+	top:3323px;
+	left:30px;}
+img.vietnam16{
+	position: absolute;
+	top:3323px;
+	left:543px;}
+img.vietnam17{
+	position: absolute;
+	top:3701px;
+	left:75px;}
+img.vietnam18{
+	position: absolute;
+	top:3933px;
+	left:638px;}
+img.vietnam19{
+	position: absolute;
+	top:4112px;
+	left:10px;}
+img.vietnam20{
+	position: absolute;
+	top:4294px;
+	left:511px;}
+
+section.country img
+{
+	/*	border: 15px solid #d69f9f;}*/}
+
+h1.country{
+    text-align: center;
+	font-size: 90px;
+	font-weight: bold;
+	color:#d69f9f;
+	margin: 50px auto 135px auto;
+	padding: auto 30px auto 30px;
+	font-family: 'Alegreya', serif;
+}
+
+
+/*サイドバー共通*/
+div.sidebar{
+	width:247px;
+	text-align: center;
+	font-family: 'Alegreya', serif;
+	font-size: 20px;
+	padding-top:30px;
+
+}
+
+ul.sidebar{
+	line-height: 200%;
+}
+
+img.country-name{
+	margin:20px auto 150px auto;
+}
+
+
+
+
+
+/*Footerのcss*/
+
+footer{
+	width:100%;
+	height:124px;
+	text-align:right;
+	font-family: 'Alegreya', serif;
+}
+	
+	
+footer.home{
+	background-color:#D0ACE8;}
+footer.aboutme{
+	background-color:#f0ef8d;}
+footer.artworks{
+	background-color:#7eade6;}
+footer.photographs{
+	background-color:#d69f9f;}
+footer.contact{
+	background-color:#9fd6b1;}
+
+
+footer p{
+	margin:0 30px 0 0;
+	line-height:124px;}
+
+p.footer{
+    color:#FFFFFF;
+    font-family: 'Alegreya', serif;
+
+}
+
+
+
+ul#gallery li{
+    margin: 0 0 60px 0;
+}
+
+
+p.cap{
+    text-align: center;
+    margin: 5px 0 0 0;
+}
+
