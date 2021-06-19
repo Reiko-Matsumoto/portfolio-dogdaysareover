@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html class="toppage">
+<head>
+<meta charset="utf-8">
+	
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@500&display=swap" rel="stylesheet">
+	
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@800&display=swap" rel="stylesheet">
+
+	
+<title>DOG DAYS ARE OVER｜HOME</title>
+<link href="css/reset.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link href="css/jquery.bxslider.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+$('.bxslider').bxSlider({
+auto:true,
+mode:'fade',
+speed:3000,
+pause:6000,
+	
+});
+});
+</script>
+<script>
+$(function() {
+var topBtn = $('#page-top');
+topBtn.hide();
+//スクロールが100に達したらボタン表示
+$(window).scroll(function () {
+if ($(this).scrollTop() > 100) {
+topBtn.fadeIn();
+} else {
+topBtn.fadeOut();
+}
+});
+//スクロールしてトップ
+topBtn.click(function () {
+$('body,html').animate({
+scrollTop: 0
+}, 500);
+return false;
+});
+});
+</script>
+<script type="text/javascript" src="js/jquery.bxslider.js"></script>
+</head>
+<body class="aboutme">
+	
+<a id="jump"></a>
+	
+<header class="aboutme">
+<a href="index.html"><img src="images/Visual/logo.png" alt="dogdays" class="logo"></a>
+<nav>
+<ul>
+<li><a href="aboutme.html">ABOUT ME</a></li>
+<li><a href="artworks.html">ARTWORKS</a></li>
+<li><a href="photographs.html">PHOTOGRAPHS</a></li>
+<li><a href="contact.html">CONTACT</a></li>
+</ul>
+</nav>
+	
+</header>   
+	
+<div id="aboutme">
+<h1 class="aboutme">ABOUT ME</h1>
+<img src="images/Visual/about-me.png" alt="女の子の絵" class="aboutme">
+</div>
+	
+
+<main class="aboutme">
+
+	
+<section class="left"><h2 class="aboutme">REIKO MATSUMOTO</h2>
+<p class="aboutme">
+・Born in 1992.07.25.<br>
+・Born and rised in Tokyo. <br>
+・Studied one year in Austraia.<br>
+・Travel Lover (15 coountries 5 times Australia)<br>
+・Currently working for a Swiss shipment company in Tokyo.<br>
+・(Normal Office lady)<br>
+	
+<br>
+During Covid-19 pandemic, what i was doing everyday was only to repeat<br>
+"Wake up,Work,eat and Sleep".<br>
+Nothing fun, no one to talk, stay at home by myself.<br>
+This was absolutely my dog days.<br>
+Oneday, during i was working, i was bit boring.<br>
+So i doodled on my document.On tiny piece of paper.<br>
+This was the point that let to me starting <br>
+to think about studing graffic desigin. <br>
+since being normal office lady is not attractive life style for me <br>
+and I am getting tired of this uncreative life.<br>
+In addition, Since I am not able to travel abroad because of <br>
+this situation, I decided to spend more time to study<br>
+and create somthing instead of traveling.<br>
+</p></section>
+
+<section class="right"><h2 class="aboutme">松本　怜子</h2>
+<p class="aboutme">	
+・1992年7月25日生まれ<br>
+・東京生まれ、東京育ち<br>
+・1年間のオーストラリア留学<br>
+・旅行好き　(15か国　オーストラリア５回)<br>
+・外資の貿易会社勤め<br>
+・普通のOL<br>
+<br>
+<br>
+コロナ渦の中、毎日何をしてたかと言ったら<br>
+”起きて”、仕事して、食べて、寝て”の繰り返し。<br>
+特に楽しいと思えることもなく、毎日が何となく過ぎて行き。<br>
+ある日の仕事中、ちょっと仕事が暇なときに<br>
+思い付きで目の前の書類の端っこに落書きをしてみたことをきっかけで<br>
+グラフィックデザインの勉強をすることを決心。<br>
+留学、海外旅行の経験を活かし、<br>
+多様性に富んだグローバルなデザイナーを目指してます。<br>
+</p></section>
+	
+</main>
+	
+
+
+
+<footer class="aboutme">
+<p class="footer">Copyright &copy; 2021 Reiko Matsumoto All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
