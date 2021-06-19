@@ -32,19 +32,19 @@ body{
 	}
 
 body.home{
-		background-image:url(../images/Visual/background1.jpg);
+		background-image:url(../images/visual/background1.jpg);
 }
 body.aboutme{
-		background-image:url(../images/Visual/background2.jpg);
+		background-image:url(../images/visual/background2.jpg);
 }
 body.artworks{
-		background-image:url(../images/Visual/background3.jpg);
+		background-image:url(../images/visual/background3.jpg);
 }
 body.photographs{
-		background-image:url(../images/Visual/background4.jpg);
+		background-image:url(../images/visual/background4.jpg);
 }
 body.contact{
-		background-image:url(../images/Visual/background5.jpg);
+		background-image:url(../images/visual/background5.jpg);
 }
 body.graphicdesign{
 		background-color:#FFFFFF;
