@@ -546,7 +546,7 @@ section.graphicdesign{
 section.graphicdesign ul
 {
 width:95%;
-margin:5px auto 5px auto;
+margin:auto auto auto auto;
 list-style-type: none;
 	display: flex;
 	flex-wrap:wrap;
