@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html class="toppage">
+<head>
+<meta charset="utf-8">
+	
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@500&display=swap" rel="stylesheet">
+	
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@800&display=swap" rel="stylesheet">
+
+	
+<title>DOG DAYS ARE OVER｜HOME</title>
+<link href="css/reset.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link href="css/jquery.bxslider.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+$('.bxslider').bxSlider({
+auto:true,
+mode:'fade',
+speed:3000,
+pause:6000,
+	
+});
+});
+</script>
+
+<script type="text/javascript" src="js/jquery.bxslider.js"></script>
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+	
+<script>
+$(function() {
+var topBtn = $('#jump-top');
+topBtn.hide();
+//スクロールが100に達したらボタン表示
+$(window).scroll(function () {
+if ($(this).scrollTop() > 500) {
+topBtn.fadeIn();
+} else {
+topBtn.fadeOut();
+}
+});c
+//スクロールしてトップ
+topBtn.click(function () {
+$('body,html').animate({
+scrollTop: 0
+}, 500);
+return false;
+});
+});
+</script>
+
+	
+</head>
+<body class="home">
+	
+<header class="home">
+<a href="index.html"><img src="images/Visual/logo.png" alt="dogdays" class="logo"></a>
+<nav>
+<ul>
+<li><a href="aboutme.html">ABOUT ME</a></li>
+<li><a href="artworks.html">ARTWORKS</a></li>
+<li><a href="photographs.html">PHOTOGRAPHS</a></li>
+<li><a href="contact.html">CONTACT</a></li>
+</ul>
+</nav>
+	
+</header>
+
+    
+	
+<div id="mv">
+<a href="index.html"><img src="images/Visual/title1.png" alt="dogdays" class="copy1"></a>
+<a href="index.html"><img src="images/Visual/title2.png" alt="dogdays" class="subcopy1"></a>
+</div>
+	
+
+<main>
+<section class="about">
+<h2 class="home">ABOUT ME</h2>
+<p class="subcopy2">
+The title "DOG DAYS ARE OVER" comes from one of my favorite song from British artist called Florence and the machine.<br>
+Dog days uses as "Dog days of summer" which means the hottest days of summer.<br>
+The another meaning of dog days is a period of sragnation or inactivity. <br>
+So... Why did I decided to use it as the title of my portfolio web site??<br>
+
+私のポートフォリオサイト<br>
+タイトルの"DOG DAYS ARE OVER"はイギリスの歌手フローレンス・アンド・ザ・マシーンの曲のタイトルで、
+Dog daysは夏の一番暑い日を表します。<br>
+そしてDog daysのもう一つの意味は、つまらない日々、またはやる気のない日々。<br>
+この言葉をわざわざタイトルにした理由は、、、、、<br>
+</p>
+<ul><li class="viewall"><a href="aboutme.html">VEIW ALL...</a></li></ul>
+</section>
+	
+<section class="art">
+<h2 class="home">ARTWORKS</h2>
+<ul class="artworks">
+<li section class="art"><a href="artworks.html"><img src="images/visual/artwork1.jpg" alt="リュックのロゴマーク"></a></li>
+<li section class="art"><a href="artworks.html"><img src="images/visual/artwork2.jpg" alt="お菓子のパッケージPIPIのVEGEMITE味"></a></li>	
+<li section class="art"><a href="artworks.html"><img src="images/visual/artwork3.jpg" alt="500日のサマーイラスト"></a></li></ul>
+
+<ul><li class="viewall"><a href="artworks.html">VEIW ALL...</a></li></ul>
+</section>
+	
+
+	
+<section class="photo">
+<h2 class="home">PHOTOGRAPHS</h2>
+<ul class="photographs">
+<li section class="photo"><a href="photographs.html"><img src="images/visual/photo1.jpg" alt="スペインのストリートアート"></a></li>
+<li section class="photo"><a href="photographs.html"><img src="images/visual/photo2.jpg" alt="ロンドンで壁に寄りかかる女性とマネキン"></a></li>	
+<li section class="photo"><a href="photographs.html"><img src="images/visual/photo3.jpg" alt="オーストラリア見つけた女性のストリートアート"></a></li></ul>
+
+<ul><li class="viewall"><a href="photographs.html">VEIW ALL...</a></li></ul>
+</section>	
+
+</main>
+
+<p id="jump-top"><a href="index.html">☝TOP</a></p>
+
+
+<footer class="home">
+<p class="footer">Copyright &copy; 2021 Reiko Matsumoto All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
