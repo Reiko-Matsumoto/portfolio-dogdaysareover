@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html class="toppage">
+<head>
+<meta charset="utf-8">
+	
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@500&display=swap" rel="stylesheet">
+	
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@800&display=swap" rel="stylesheet">
+
+	
+<title>DOG DAYS ARE OVER｜HOME</title>
+<link href="css/reset.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link href="css/jquery.bxslider.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+$('.bxslider').bxSlider({
+auto:true,
+mode:'fade',
+speed:3000,
+pause:6000,
+	
+});
+});
+</script>
+<script>
+$(function() {
+var topBtn = $('#page-top');
+topBtn.hide();
+//スクロールが100に達したらボタン表示
+$(window).scroll(function () {
+if ($(this).scrollTop() > 100) {
+topBtn.fadeIn();
+} else {
+topBtn.fadeOut();
+}
+});
+//スクロールしてトップ
+topBtn.click(function () {
+$('body,html').animate({
+scrollTop: 0
+}, 500);
+return false;
+});
+});
+</script>
+<script type="text/javascript" src="js/jquery.bxslider.js"></script>
+</head>
+<body class="artworks">
+	
+<a id="jump"></a>
+	
+<header class="artworks">
+<a href="index.html"><img src="images/Visual/logo.png" alt="dogdays" class="logo"></a>
+<nav>
+<ul>
+<li><a href="aboutme.html">ABOUT ME</a></li>
+<li><a href="artworks.html">ARTWORKS</a></li>
+<li><a href="photographs.html">PHOTOGRAPHS</a></li>
+<li><a href="contact.html">CONTACT</a></li>
+</ul>
+</nav>
+	
+</header>   
+	
+<div id="artworks">
+<h1 class="artworks">ARTWORKS</h1>
+<img src="images/Visual/artworks.png" alt="ビートルズがアビーロードを歩く絵" class="artworks">
+</div>
+	
+
+<main class="artworks">
+<h2 class="artworks">Which do you prefer??<br></h2>
+<ul>
+<li>
+<h1 class="artworks1"><a href="graphicdesign.html">GRAPHIC DESIGN</a></h1></li>
+<h2 class="artworks">or</h2>
+<li>
+<h1 class="artworks1"><a href="illustration.html">ILLUSTRATIONS</a></h1></li></ul>
+</main>
+
+
+<footer class="artworks">
+<p class="footer">Copyright &copy; 2021 Reiko Matsumoto All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
