@@ -579,7 +579,7 @@ h3.graphicdesign{
 /*countryのcss*/
 
 main.country{
-	width:1343px;
+	width:1100px;
 	height:5000px;
 	margin: 0 auto;
 	display: flex;
@@ -609,7 +609,7 @@ section.country ul
 
 /*サイドバー共通*/
 div.sidebar{
-	width:220px;
+	width:200px;
 	text-align: center;
 	font-family: 'Alegreya', serif;
 	font-size: 20px;
