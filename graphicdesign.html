@@ -2,40 +2,18 @@
 <html class="toppage">
 <head>
 <meta charset="utf-8">
-	
+ 
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@500&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@800&display=swap" rel="stylesheet">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-	
-<script type="text/javascript" src="js/jquery.BlackAndWhite.js"></script>
-<script>
-$(function(){
-	$('.bwWrapper').BlackAndWhite({
-        hoverEffect : true,
-        webworkerPath : false,
-        invertHoverEffect: false, //白黒→カラー（trueにするとカラー→白黒）
-        intensity:1,
-        speed: {
-            fadeIn: 200, //フェードインのスピード
-            fadeOut: 800 //フェードアウトのスピード
-        },
-        onImageReady:function(img) {
-        }
-    });
-});
-</script>
-
-	
-	
+ 
+<script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
 <script>
 $(function() {
-var topBtn = $('#jump-top');
+var topBtn = $('#jump-top-country');
 topBtn.hide();
 //スクロールが100に達したらボタン表示
 $(window).scroll(function () {
-if ($(this).scrollTop() > 500) {
+if ($(this).scrollTop() > 1100) {
 topBtn.fadeIn();
 } else {
 topBtn.fadeOut();
@@ -50,19 +28,19 @@ return false;
 });
 });
 </script>
-	
 
-	
+ 
 <title>DOG DAYS ARE OVER｜HOME</title>
 <link href="css/reset.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
 <link href="css/lightbox.css" rel="stylesheet">
 <script type="text/javascript" src="js/lightbox.min.js"></script>
 </head>
-	
-<p id="jump-top"><a href="graphicdesign.html">☝TOP</a></p>
-	
-<header class="artworks">
+
+<p id="jump-top-country"><a href="graphicdesign.html">☝TOP</a></p>
+
+<body class="country">
+<header class="photographs">
 <a href="index.html"><img src="images/visual/logo.png" alt="dogdays" class="logo"></a>
 <nav>
 <ul>
@@ -73,7 +51,7 @@ return false;
 </ul>
 </nav>
 	
-</header>   
+</header>  
   
 	
 <div id="graphicdesign">
