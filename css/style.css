@@ -581,7 +581,7 @@ h3.graphicdesign{
 /*countryのcss*/
 
 main.country{
-	width:1343px;
+	width:100%;
 	height:5000px;
 	margin: 0 auto;
 	display: flex;
