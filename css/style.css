@@ -588,7 +588,7 @@ main.country{
 }
 
 section.country{
-	width:900px;
+	width:1096px;
 	text-align: center;
 	border-spacing: inherit;
 	font-family: 'Alegreya', serif;
@@ -612,15 +612,17 @@ section.country ul
 
 
 
+
 /*サイドバー共通*/
 div.sidebar{
-	flex: 0 0 247px;
+	width:247px;
 	text-align: center;
 	font-family: 'Alegreya', serif;
 	font-size: 20px;
 	padding-top:30px;
 
 }
+
 
 ul.sidebar{
 	line-height: 200%;
